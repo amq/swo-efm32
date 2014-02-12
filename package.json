@@ -8,12 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://nadc-login2.nadc.arm.com//projects/pd/randd/git/iot/yottos/swo"
+    "url": "git@github.com:ARM-RD/swo-efm32.git"
+  },
+  "homepage": "https://github.com/ARM-RD/swo-efm32",
+  "bugs": {
+    "url": "http://github.com/ARM-RD/swo-efm32/issues",
+    "email": "project@hostname.com"
   },
   "author": "James Crosby <James.Crosby@arm.com>",
   "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
   "dependencies": {
-    "toolchain": "*",
-    "emlib": "*"
+    "toolchain": "ARM-RD/toolchain",
+    "emlib": "ARM-RD/emlib"
   }
 }
