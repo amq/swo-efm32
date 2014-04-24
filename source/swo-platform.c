@@ -1,9 +1,9 @@
 /// Copyright (C) 2013 ARM Limited, All rights reserved.
 
-#import "swo/swo.h"
+#include "swo/swo.h"
 
-#import <emlib/em_cmu.h>
-#import <emlib/em_chip.h>
+#include <emlib/em_cmu.h>
+#include <emlib/em_chip.h>
 
 // setup printf over SWO
 static void setupSWOForPrint(void){

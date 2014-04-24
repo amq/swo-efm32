@@ -12,11 +12,7 @@ include_directories(${EXTRA_INCLUDE_DIRS})
 add_definitions(${EXTRA_DEFINITIONS})
 
 add_library(swo-platform
-    swo-platform.m
-)
-# no proper CMake support for objective-c flags :(
-set_target_properties(swo-platform PROPERTIES
-    COMPILE_FLAGS "${CMAKE_OBJC_FLAGS}"
+    swo-platform.c
 )
 
 target_link_libraries(swo-platform
