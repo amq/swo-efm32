@@ -1,9 +1,10 @@
 /// Copyright (C) 2013 ARM Limited, All rights reserved.
 
+#include <stdbool.h>
+
 #include "swo/swo.h"
 
-#include <emlib/em_cmu.h>
-#include <emlib/em_chip.h>
+#include "cmsis-core/cmsis.h"
 
 // setup printf over SWO
 static void setupSWOForPrint(void){
