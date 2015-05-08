@@ -18,11 +18,11 @@
   "author": "James Crosby <James.Crosby@arm.com>",
   "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
   "dependencies": {
-    "swo": "ARMmbed/swo#~0.0.6"
+    "swo": "ARMmbed/swo#~0.1.0"
   },
   "targetDependencies": {
     "arm": {
-      "cmsis-core": "ARMmbed/cmsis-core#~0.0.1"
+      "cmsis-core": "ARMmbed/cmsis-core#~0.1.0"
     }
   }
 }
