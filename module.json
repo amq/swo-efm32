@@ -23,7 +23,7 @@
     }
   ],
   "dependencies": {
-    "swo": "ARMmbed/swo#~0.1.0"
+    "swo": "ARMmbed/swo#~1.0.0"
   },
   "targetDependencies": {
     "arm": {
