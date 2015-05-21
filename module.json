@@ -16,7 +16,12 @@
     "email": "project@hostname.com"
   },
   "author": "James Crosby <James.Crosby@arm.com>",
-  "license": "Copyright (C) 2013 ARM Limited. All rights reserved.",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
   "dependencies": {
     "swo": "ARMmbed/swo#~0.1.0"
   },
