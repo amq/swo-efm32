@@ -23,7 +23,7 @@
     }
   ],
   "dependencies": {
-    "swo": "^2.0.0"
+    "swo": "^1.1.0"
   },
   "targetDependencies": {
     "arm": {
