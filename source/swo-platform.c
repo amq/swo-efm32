@@ -4,7 +4,7 @@
 
 #include "swo/swo.h"
 
-#include "cmsis-core/cmsis.h"
+#include "cmsis.h"
 
 // setup printf over SWO
 static void setupSWOForPrint(void){
