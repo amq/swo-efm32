@@ -1,5 +1,7 @@
 /// Copyright (C) 2013 ARM Limited, All rights reserved.
 
+#if defined(TARGET_EFM32)
+
 #include <stdbool.h>
 
 #include "swo/swo.h"
@@ -101,3 +103,5 @@ void swoPlatformEnsureInit(){
 void swoPlatformSendChar(char c){
     ITM_SendChar(c);
 }
+
+#endif
